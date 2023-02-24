@@ -64,14 +64,6 @@ public class MainActivity extends AppCompatActivity {
 
     FileOutputStream fileOutputStream;
 
-
-
-
-    // for encrypt string 31.1.23
-    // test work need to delete the tvVar1 from xml!!!
-    // TextView tvVar1;
-    //ClipboardManager cpb;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -88,9 +80,6 @@ public class MainActivity extends AppCompatActivity {
         main_img_share = findViewById(R.id.main_img_share);
         main_edt_enter_string = findViewById(R.id.main_edt_enter_string);
 
-        // for encrypt string 31.1.23
-       // tvVar1 = findViewById(R.id.tvVar1);
-       // cpb = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
     }
 
     private void attachListeners() {
@@ -134,29 +123,9 @@ public class MainActivity extends AppCompatActivity {
                     shareImage();
                 }
 
-
                 // check if String is between 0-10
 //                else if (enterString.length() <= 0 || enterString.length() >10) {
 //                    Toast.makeText(MainActivity.this, "The string must contain more than 0 and not more than 10 characters ", Toast.LENGTH_LONG).show();
-
-
-
-
-
-
-
-
-//                // for encrypt string 31.1.23
-//                String temp =enterString;
-//                // pass the string to the encryption
-//                // algorithm and get the encrypted code
-//                String rv = Encode.encode(temp);
-//
-//                // set the code to the edit text
-//                tvVar1.setText(rv);
-
-
-
 
 
             }
